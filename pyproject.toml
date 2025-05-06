@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel", "pybind11 >= 2.9.1", "torch>=1.13"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diff-gaussian-rasterization-w-depth"
+version = "0.0.1"
+dependencies = ["torch"]
